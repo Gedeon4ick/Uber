@@ -3,7 +3,7 @@
 }
     
 
-header {
+nav {
     height: 50px;
     background-color: #212121;
 }
@@ -30,5 +30,10 @@ header {
 .menu .menu_item {
     border-right: 2px dotted black;
     padding-right: 28px; 
+}
+
+.subheader {
+    height: 87px;
+    background: rgba(0,0,0, .6);
 }
     
