@@ -1,6 +1,9 @@
 $text_color: #1EACC7
 $second-color: #ff5656
 
+a
+    text-decoration: none
+
 =btn_hover
     &:hover
       background-image: none
@@ -365,6 +368,53 @@ span
     text-decoration: none
     &:hover
       text-decoration: underline
+
+.foother
+  min-height: 64px
+  padding: 13px 0 20px 0
+  &_city
+    display: flex
+    justify-content: center
+    text-transform: uppercase 
+    gap: 45px
+  &_row
+    color: #070716
+    margin-top: 20px
+    font-weight: 300
+    font-size: 15px
+    line-height: 45px
+    &:hover
+      text-decoration: underline
+  &_city2
+    display: flex
+    justify-content: center
+    text-transform: uppercase 
+    gap: 20px
+  &_row2
+    color: #999999
+    font-weight: 300
+    font-size: 11px
+    &:hover
+      text-decoration: underline
+  &_russian
+    margin-top: 20px
+    display: block
+    text-align: center
+    font-weight: 400
+    font-size: 11px
+    text-transform: uppercase 
+    color: $text_color
+    &:hover
+      text-decoration: underline
+  .hr
+    margin: 0 auto
+    height: 3px
+    width: 301px
+    background-color: $text_color
+
+    
+
+
 
 
 
