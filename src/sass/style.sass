@@ -371,7 +371,9 @@ span
 
 .foother
   min-height: 64px
-  padding: 13px 0 20px 0
+  padding: 13px 23px 20px 23px
+  &_center
+    width: 100%
   &_city
     display: flex
     justify-content: center
@@ -411,6 +413,55 @@ span
     height: 3px
     width: 301px
     background-color: $text_color
+
+.final
+  display: flex
+  justify-content: space-around
+  align-items: center
+  margin: 0 auto
+  gap: 50px
+  &_item
+    width: 33%
+    display: flex
+    &:last-child
+      justify-content: flex-end
+  &_emblem
+    display: flex
+    justify-content: space-around
+    align-items: center
+    max-width: 310px
+    gap: 7px
+    .emblem_img
+      width: 90px
+      height: 30px
+      &:hover
+        cursor: pointer
+      &:nth-child(2)
+        height: 26px
+      
+      
+        
+  &_icons
+    display: flex
+    justify-content: space-around
+    max-width: 170px
+    gap: 6px
+    
+    &_item
+      display: flex
+      background: #070716
+      width: 35px
+      height: 35px
+      justify-content: center
+      align-items: center
+      border-radius: 100%
+
+
+
+    
+    
+
+
 
     
 
